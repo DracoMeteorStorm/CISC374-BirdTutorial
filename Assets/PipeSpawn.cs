@@ -7,11 +7,11 @@ public class PipeSpawn : MonoBehaviour
     public float spawnRate = 4;
     private float timer = 0;
     public float heightOffset = 10;
+    public LogicScript logic;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        spawnPipe();
-    }
+        spawnPipe();}
 
     // Update is called once per frame
     void Update()
